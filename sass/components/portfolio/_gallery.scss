@@ -1,0 +1,18 @@
+.gallery{
+    @extend %section;
+}
+.gallery__title{
+    &--hide{
+        @extend %vh;
+    }
+}
+.gallery__lists{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.gallery__item{
+    width: 370px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}

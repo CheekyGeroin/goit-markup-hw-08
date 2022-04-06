@@ -1,0 +1,29 @@
+.team{
+    padding-top: 0;
+    background-color: $team-section-button-color;
+    @extend %section
+}
+.team__title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    @extend %title;
+}
+.team__lists{
+    @extend %list;
+    display: flex;
+}
+.team__item{
+    margin-right: 30px;
+    display: flex;
+    background-color: $main-background-color;
+    margin-right: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+
+    &:last-child{
+        margin-right: 0;
+    }
+}
