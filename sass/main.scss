@@ -1,10 +1,12 @@
 @import './utils/variables';
 @import './utils/placeholders';
+@import './utils/breakpoints';
 @import './base/normalize';
 @import './components/common/body';
 @import './components/header/page-header';
 @import './components/common/container';
 @import './components/common/logo';
+@import './components/header/menu';
 @import './components/header/nav';
 @import './components/header/contact';
 @import './components/hero/hero';

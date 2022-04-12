@@ -7,6 +7,11 @@
   .page-header__container{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     border-bottom: 1px solid #ececec;
     position: relative;
+    @media screen and (min-width: $tablet){
+      display: flex;
+      align-items: center;
+    }
   }

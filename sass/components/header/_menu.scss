@@ -1,0 +1,25 @@
+.menu{
+    // display: none;
+}
+.menu__button{
+    display: inline-flex;
+    border: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.menu__button .icon__cross{
+    display: none;
+}
+.menu__button.is-open .icon__cross{
+    display: block;
+}
+.menu__button.is-open .icon__menu{
+    display: none;
+}
+.menu__button:hover .icon__cross, .menu__button:focus .icon__cross,
+.menu__button:hover .icon__menu, .menu__button:focus .icon__menu{
+    fill: $accent-color;
+}
+
