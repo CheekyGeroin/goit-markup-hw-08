@@ -5,17 +5,25 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  max-width: 1600px;
   padding: 200px 0px 200px 0px;
   margin-right: auto;
   margin-left: auto;
+  @media screen and (max-width: 767px){
+      max-width: 480px;
+  }
+  @media screen and (min-width: $tablet){
+      max-width: 768px;
+  }
+  @media screen and (min-width: $desktop){
+      max-width: 1600px;
+  }
 }
 .hero__title{
     margin-left: auto;
     margin-right: auto;
     font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+    font-size: 26px;
+    line-height: 1.61;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
