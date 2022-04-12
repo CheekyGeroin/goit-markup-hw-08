@@ -9,7 +9,11 @@
   margin-right: auto;
   margin-left: auto;
   @media screen and (max-width: 767px){
-      max-width: 480px;
+        max-width: 480px;
+        padding: 118px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
   }
   @media screen and (min-width: $tablet){
       max-width: 768px;
