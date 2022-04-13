@@ -1,7 +1,7 @@
 .menu{
     display: none;
     position: absolute;
-    top: 0;
+    top: 100%;
     left: 0;
     padding: 48px 40px;
     width: 100%;
@@ -39,4 +39,3 @@
 .menu__button:hover .icon__menu, .menu__button:focus .icon__menu{
     fill: $accent-color;
 }
-
