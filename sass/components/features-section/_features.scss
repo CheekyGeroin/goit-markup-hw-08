@@ -14,13 +14,24 @@
     }
 }
 .features__lists{
-    @extend %list
+    @extend %list;
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
 }
 .features__item{
+    
     max-width: 450px;
-    margin-bottom: 30px;
     &:last-child{
         margin-bottom: 0;
+    }
+    @media screen and (max-width: 767px){
+        margin-bottom: 30px;
+    }
+    @media screen and (min-width: $tablet){
+        max-width: 354px;
+        margin: 15px;
+        flex-basis: calc((100% - 2 * 30) / 2);
     }
 }
 .features__container-icon{
@@ -31,9 +42,11 @@
     height: 120px;
     background-color:$team-section-button-color;
     border-radius: 4px;
+    @media screen and (min-width: $tablet){
+        max-width: 354px;
+    }
 }
 .features__subtitle{
-    text-align: center;
     margin-top: 30px;
     margin-bottom: 10px;
     font-weight: 700;

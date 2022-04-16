@@ -31,7 +31,7 @@
 }
 .form__input{
     padding-left: 42px;
-    width: 448px;
+    max-width: 370px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -55,7 +55,7 @@
     cursor: pointer;
     padding-top: 12px;
     padding-left: 16px;
-    width: 448px;
+    width: 370px;
     resize: none;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -97,8 +97,8 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form__text-checkbox{
-    font-size: 14px;
-    line-height: 1.71;
+    font-size: 12px;
+    line-height: 1.16;
     letter-spacing: 0.03em;
     &--accent{
         color: $accent-color;
