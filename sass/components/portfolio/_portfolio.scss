@@ -25,6 +25,12 @@
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
+    .gallery__item:first-child &{
+        @media screen and (min-width: $tablet) and (max-width: 1199px){
+        height: 146px;
+        }
+    }
+    
 }
 .portfolio__title{
     margin-bottom: 4px;

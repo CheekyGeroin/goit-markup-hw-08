@@ -1,5 +1,8 @@
 .subs{
     height: 86px;
+    @media screen and (min-width: $tablet){
+        text-align: center;
+    }
 }
 .subs__text{
     font-weight: 700;

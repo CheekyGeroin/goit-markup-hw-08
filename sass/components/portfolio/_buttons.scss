@@ -3,6 +3,9 @@
     flex-wrap: wrap;
     margin-bottom: 50px;
     list-style: none;
+    @media screen and (min-width: $tablet) and (max-width: 1199px){
+        justify-content: center;
+    }
 }
 .button__item{
     &:first-child{

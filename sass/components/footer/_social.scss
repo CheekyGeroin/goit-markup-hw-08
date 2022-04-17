@@ -1,5 +1,8 @@
 .social{
    margin-bottom: 60px;
+   @media screen and (min-width: $tablet){
+    text-align: center;
+   }
 }
 .social__title{
     padding: 0;
