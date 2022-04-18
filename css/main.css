@@ -334,6 +334,14 @@ h1, h2, h3, h4, h5, h6, p, ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .page-header__container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .container {
   padding: 0 15px;
   margin: 0 auto;
@@ -435,6 +443,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .page-header__link {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+}
+
 .page-header__logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -447,6 +462,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .page-header__logo--accent {
   color: #2196f3;
+}
+
+@media screen and (min-width: 1200px) {
+  .page-header__logo {
+    font-size: 26px;
+    line-height: 1.19;
+  }
 }
 
 .site-nav__list {
@@ -689,6 +711,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 @media screen and (min-width: 1200px) {
   .hero {
     max-width: 1600px;
+    padding: 200px 0;
   }
 }
 

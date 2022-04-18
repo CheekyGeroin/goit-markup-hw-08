@@ -9,6 +9,10 @@
     @media screen and (min-width: $tablet){
         margin-right: 93px;
     }
+    @media screen and (min-width: $desktop){
+        font-size: 26px;
+        line-height: 1.19;
+    }
 }
 .page-header__logo{
     font-family:$second-font;
@@ -20,5 +24,9 @@
     text-decoration: none;
     &--accent{
         color: $accent-color;
+    }
+    @media screen and (min-width: $desktop){
+        font-size: 26px;
+        line-height: 1.19;
     }
 }
