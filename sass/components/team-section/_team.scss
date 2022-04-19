@@ -1,6 +1,9 @@
 .team{
     padding: 60px 0px;
     background-color: $team-section-button-color;
+    @media screen and (min-width: $desktop){
+        padding: 94px 0;
+    }
 }
 .team__title{
     font-weight: 700;
@@ -13,10 +16,13 @@
 }
 .team__lists{
     @extend %list;
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: $tablet) and (max-width: 1199px){
         display: flex;
         flex-wrap: wrap;
         margin: -15px;
+    }
+    @media screen and (min-width: $desktop){
+        display: flex;
     }
 }
 .team__item{

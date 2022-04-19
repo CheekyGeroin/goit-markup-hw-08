@@ -1,6 +1,9 @@
 .footer{
     padding: 60px 0 120px 0;
     background-color: $hero-footer-background;
+    @media screen and (min-width: $desktop){
+        padding: 60px 0px;
+    }
 }
 .footer__container{
     @media screen and (max-width: 767px){
@@ -11,5 +14,9 @@
         flex-wrap: wrap;
         justify-content: center;
         align-items: baseline
+    }
+    @media screen and (min-width: $desktop){
+        display: flex;
+        align-items: baseline;
     }
 }

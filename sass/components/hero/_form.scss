@@ -40,6 +40,9 @@
     &:focus{
         border: 1px solid $accent-color;
     }
+    @media screen and (min-width: $desktop){
+        max-width: 448px;
+    }
 }
 .form__icon{
     position: absolute;
@@ -67,6 +70,9 @@
         line-height: 1.14;
         letter-spacing: 0.01em;
         color: rgba(117, 117, 117, 0.5);
+    }
+    @media screen and (min-width: $desktop){
+        width: 448px;
     }
 }
 .form__checkbox{
@@ -104,6 +110,10 @@
         color: $accent-color;
         text-decoration: underline;
         cursor: pointer;
+    }
+    @media screen and (min-width: $desktop){
+        font-size: 14px;
+        line-height: 1.71;
     }
 }
 .form__submit-button{

@@ -28,11 +28,11 @@
     .backdrop.is-hidden &{
         transform: translate(-50%, -50%) scale(1.1);
     }
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: $tablet) and (max-width: 1199px) {
         height: 609px;
     }
     @media screen and (min-width: $desktop){
-        
+        max-width: 528px;
     }
 }
 .modal__title{

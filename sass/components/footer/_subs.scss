@@ -1,6 +1,6 @@
 .subs{
     height: 86px;
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: $tablet) and (max-width: 1199px){
         text-align: center;
     }
 }
@@ -14,10 +14,17 @@
 }
 .subs__form{
     margin-top: 20px;
+    @media screen and (min-width: $desktop){
+        display: flex;
+    }
 }
 .subs__label{
     display: inline-block;
     max-width: 450px;
+    @media screen and (min-width: $desktop){
+        max-width: 570px;
+        margin-right: 12px;
+    }
 }
 .subs__input{
     margin-bottom: 20px;
@@ -30,6 +37,9 @@
     cursor: pointer;
     @media screen and (min-width: $mobile){
         width: 450px;
+    }
+    @media screen and (min-width: $desktop){
+        width: 358px;
     }
 }
 .subs__button{
