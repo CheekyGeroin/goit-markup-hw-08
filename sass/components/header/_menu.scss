@@ -15,12 +15,19 @@
             display: block;
         }
     }
-    @media screen and (min-width: $tablet){
+    @media screen and (min-width: $tablet) and (max-width: 1199px){
         display: flex;
         justify-content: space-between;
         align-items: center;
         // max-height: 48px;
     }
+    @media screen and (min-width: $desktop){
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+    
 }
 .menu__button{
     display: inline-flex;

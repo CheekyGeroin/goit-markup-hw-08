@@ -29,8 +29,15 @@
         @media screen and (min-width: $tablet) and (max-width: 1199px){
         height: 146px;
         }
+        @media screen and (min-width: $desktop){
+            height: 146px;
+        }
     }
-    
+    .gallery__item:nth-child(3) &{
+        @media screen and (min-width: $desktop){
+            height: 146px;
+        }
+    } 
 }
 .portfolio__title{
     margin-bottom: 4px;
