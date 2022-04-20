@@ -3,9 +3,11 @@
     // align-items: center;
     // border-bottom: 1px solid #ececec;
     position: relative;
-    padding-top: 10px;
-    padding-bottom: 10px;
     border-bottom: 1px solid #ececec;
+    @media screen and (max-width: 767px){
+      padding-top: 10px;
+    padding-bottom: 10px;
+    }
   }
   .page-header__container{
     @media screen and (max-width: 767px){
