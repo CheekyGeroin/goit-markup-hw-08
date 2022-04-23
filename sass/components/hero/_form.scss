@@ -72,7 +72,7 @@
         color: rgba(117, 117, 117, 0.5);
     }
     @media screen and (min-width: $desktop){
-        width: 448px;
+        max-width: 448px;
     }
 }
 .form__checkbox{
