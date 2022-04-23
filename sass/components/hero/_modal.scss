@@ -11,6 +11,9 @@
         opacity: 0;
         pointer-events: none;
     }
+    @media screen and (max-width: 767px){
+        padding: 70px 15px;
+    }
 }
 .modal{
     width: 100%;
@@ -62,6 +65,10 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     cursor: pointer;
+    @media screen and (max-width: 479px){
+        top: 78px;
+        right: 23px;
+    }
 }
 .modal__close-icon{
     position: absolute;

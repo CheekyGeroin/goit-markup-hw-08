@@ -902,6 +902,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
   pointer-events: none;
 }
 
+@media screen and (max-width: 767px) {
+  .backdrop {
+    padding: 70px 15px;
+  }
+}
+
 .modal {
   width: 100%;
   height: 100%;
@@ -966,6 +972,13 @@ h1, h2, h3, h4, h5, h6, p, ul {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   cursor: pointer;
+}
+
+@media screen and (max-width: 479px) {
+  .modal__close-button {
+    top: 78px;
+    right: 23px;
+  }
 }
 
 .modal__close-icon {
