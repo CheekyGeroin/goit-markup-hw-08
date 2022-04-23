@@ -82,9 +82,21 @@
         display: none;
     }
     @media screen and (min-width: $tablet){
-        margin-right: 8px;
+       &--tablet{
+           display: block;
+           margin-right: 8px;
+       }
+       &--desktop{
+           display: none;
+       }
     }
     @media screen and (min-width: $desktop){
-        margin-right: 10px;
+        &--tablet{
+            display: none;
+        }
+        &--desktop{
+            display: block;
+            margin-right: 10px;
+        }
     }
 }

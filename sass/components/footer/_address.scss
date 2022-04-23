@@ -6,11 +6,10 @@
     }
     @media screen and (min-width: $tablet) and (max-width: 1199px){
         margin-bottom: 60px;
-        margin-right: 165px;
         text-align: center;
     }
     @media screen and (min-width: $desktop){
-        // margin-right: 70px;
+        margin-right: 70px;
         flex-grow: 1;
     }
 }

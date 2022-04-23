@@ -11,14 +11,14 @@
 .portfolio__thumb{
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    // justify-content: center;
+    // align-items: center;
     overflow: hidden;
 }
 .portfolio__img{
     display: block;
     max-width: 100%;
-    max-height: 100%;
+    max-height: auto;
 }
 .portfolio__container{
     padding: 20px 24px;
@@ -29,15 +29,7 @@
         @media screen and (min-width: $tablet) and (max-width: 1199px){
         height: 146px;
         }
-        @media screen and (min-width: $desktop){
-            height: 146px;
-        }
     }
-    .gallery__item:nth-child(3) &{
-        @media screen and (min-width: $desktop){
-            height: 146px;
-        }
-    } 
 }
 .portfolio__title{
     margin-bottom: 4px;

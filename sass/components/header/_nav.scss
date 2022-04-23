@@ -1,8 +1,9 @@
 .navigation{
     display: flex;
     align-items: center;
-    margin-right: 84px
-    // max-height: 48px;
+    @media screen and (min-width: $tablet){
+        margin-right: 84px
+    }
 }
 .site-nav__list{
     @extend %list;
